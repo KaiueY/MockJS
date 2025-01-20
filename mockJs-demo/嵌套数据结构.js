@@ -16,4 +16,9 @@ let data4 = Mock.mock({
 });
 
 console.log('嵌套数据结构：');
-console.log(data4);
+console.log(JSON.stringify(data4.company,(key,value)=>{
+  console.log(key,value,'----');
+  return value
+  
+}, 2));
+// console.log(data4.company.employees);

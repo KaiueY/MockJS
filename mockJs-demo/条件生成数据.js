@@ -16,6 +16,5 @@ let data6 = Mock.mock({
     }
   }
 });
-
 console.log('条件生成数据：');
 console.log(data6);

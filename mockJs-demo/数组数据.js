@@ -11,4 +11,4 @@ let data3 = Mock.mock({
 });
 
 console.log('生成数组数据：');
-console.log(data3);
+console.log(data3.users);

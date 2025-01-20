@@ -14,7 +14,6 @@ let data5 = Mock.mock({
     'id': '@customId',
     'name': '@cname',
     'birthday': '@date("yyyy-MM-dd")',
-    'phone': '@mobile'
   }
 });
 
